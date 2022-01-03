@@ -1,0 +1,22 @@
+{
+  "name": "pharmanet",
+  "version": "1.0.0",
+  "description": "Pharma Network",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "start-man": "fabric-chaincode-node start --peer.address peer0.manufacturer.pharma-network.com:7053 --chaincode-id-name pharmanet:1.1",
+    "start-dist": "fabric-chaincode-node start --peer.address peer0.distributor.pharma-network.com:9053 --chaincode-id-name pharmanet:1.1",
+    "start-ret": "fabric-chaincode-node start --peer.address peer0.retailer.pharma-network.com:11053 --chaincode-id-name pharmanet:1.1",
+    "start-con": "fabric-chaincode-node start --peer.address peer0.consumer.pharma-network.com:13053 --chaincode-id-name pharmanet:1.1",
+    "start-tra": "fabric-chaincode-node start --peer.address peer0.transporter.pharma-network.com:15053 --chaincode-id-name pharmanet:1.1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Bhatnagar",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "~1.4.2",
+    "fabric-shim": "~1.4.2"
+  }
+}

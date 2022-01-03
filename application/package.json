@@ -1,0 +1,18 @@
+{
+  "name": "pharma-network",
+  "version": "1.0.0",
+  "description": "NodeJS Application to access The Chaincode on Fabric Network",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Ankit Bhatnagar",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fabric-client": "~1.4.4",
+    "fabric-network": "~1.4.4",
+    "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
